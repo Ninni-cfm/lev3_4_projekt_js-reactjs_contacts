@@ -1,38 +1,52 @@
 .App {
-  text-align: center;
+    /* text-align: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr;
+    align-items: center;
+}
+.grid > * {
+    margin: 0.5vh 0.5vw;
+    padding: 0.5vh 0.5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ContactItem img {
+    width: 80%;
+    border-radius: 3vmin;
+    justify-self: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headerStyle {
+    padding: 1vh 1vw;
+    border: 1px solid black;
+    background: linear-gradient(#333, silver);
+    color: #fff;
+}
+.buttonStyle {
+    cursor: pointer;
+}
+.input {
+    background: #fff;
+    color: #333;
 }
 
-.App-link {
-  color: #61dafb;
+.ContactsHeader {
+    background: silver;
+    position: sticky;
+    top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ContactItem {
+    margin: 0 0.5vw;
+}
+
+.ContactItem:nth-child(odd) {
+    background: silver;
+    background: linear-gradient(#888, #aaa, #888);
+}
+.ContactItem:nth-child(even) {
+    background: lightgray;
+    background: linear-gradient(#eee, #aaa, #eee);
 }

@@ -2,7 +2,7 @@
 
 _Source:_ https://github.com/Ninni-cfm/lev3_4_projekt_js-reactjs_contacts
 
----
+_Demo:_ https://loving-lovelace-c78092.netlify.app/
 
 ## JS ReactJS - Projekt lev3_4: Contacts
 

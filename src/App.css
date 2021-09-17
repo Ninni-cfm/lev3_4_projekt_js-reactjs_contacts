@@ -1,10 +1,10 @@
-.App {
-    /* text-align: center; */
-}
+/* .App {
+    text-align: center;
+} */
 
 .grid {
     display: grid;
-    grid-template-columns: 2fr 4fr 1fr 1fr;
+    grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
     align-items: center;
 }
 .grid > * {
@@ -33,6 +33,7 @@
 }
 
 .ContactsHeader {
+    /* set a background!!! */
     background: silver;
     position: sticky;
     top: 0;

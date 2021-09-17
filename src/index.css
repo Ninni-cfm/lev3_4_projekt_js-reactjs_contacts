@@ -13,4 +13,5 @@ body {
 
     padding: 0vh 10vw;
     background: silver;
+    overflow-y: scroll;
 }
